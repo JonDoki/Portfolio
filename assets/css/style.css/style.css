@@ -39,7 +39,12 @@ p {
 
 /* ovo bas i nije najkorisnija funkcija na malom sajtu ali evo da ispostujem
 napisano 28. februara. 2024. godine u 4:35 ujutru. */
-footer .bottom, footer .wrap, .services .wrap, .projects .wrap, .hero .wrap, header .wrap {
+footer .bottom,
+footer .wrap,
+.services .wrap,
+.projects .wrap,
+.hero .wrap,
+header .wrap {
   width: 70%;
   margin: 0 auto;
   padding: 1.5em 0 1.5em 0;
@@ -47,32 +52,46 @@ footer .bottom, footer .wrap, .services .wrap, .projects .wrap, .hero .wrap, hea
   justify-content: space-between;
 }
 
-.hero .wrap .centar .hero-tekst .dugme, header .wrap .lista ul li a {
+.hero .wrap .centar .hero-tekst .dugme,
+header .wrap .lista ul li a {
   padding: 7px 20px;
   font-size: 1em;
 }
 
-.kontaktForma .footer-tekst .naslov, .services .wrap .naslov, .projects .wrap .projekti-grid .naslov, .hero .wrap .centar .hero-tekst .naslov {
+.kontaktForma .footer-tekst .naslov,
+.services .wrap .naslov,
+.projects .wrap .projekti-grid .naslov,
+.hero .wrap .centar .hero-tekst .naslov {
   position: relative;
 }
-.kontaktForma .footer-tekst .naslov span, .services .wrap .naslov span, .projects .wrap .projekti-grid .naslov span, .hero .wrap .centar .hero-tekst .naslov span {
+.kontaktForma .footer-tekst .naslov span,
+.services .wrap .naslov span,
+.projects .wrap .projekti-grid .naslov span,
+.hero .wrap .centar .hero-tekst .naslov span {
   color: #ec5c29;
   font-size: 1.2rem;
   position: absolute;
   top: 10px;
 }
-.kontaktForma .footer-tekst .naslov h1, .services .wrap .naslov h1, .projects .wrap .projekti-grid .naslov h1, .hero .wrap .centar .hero-tekst .naslov h1 {
+.kontaktForma .footer-tekst .naslov h1,
+.services .wrap .naslov h1,
+.projects .wrap .projekti-grid .naslov h1,
+.hero .wrap .centar .hero-tekst .naslov h1 {
   font-size: 3.75em;
   text-indent: 3em;
   line-height: 0.9;
 }
-.kontaktForma .footer-tekst .naslov h3, .services .wrap .naslov h3, .projects .wrap .projekti-grid .naslov h3, .hero .wrap .centar .hero-tekst .naslov h3 {
+.kontaktForma .footer-tekst .naslov h3,
+.services .wrap .naslov h3,
+.projects .wrap .projekti-grid .naslov h3,
+.hero .wrap .centar .hero-tekst .naslov h3 {
   font-size: 2.75em;
   text-indent: 3em;
   line-height: 0.9;
 }
 
-.services .services-wrap .services-grid > div .serviceBlok-hover .development, .services .services-wrap .services-grid > div .serviceBlok-hover .consulting {
+.services .services-wrap .services-grid > div .serviceBlok-hover .development,
+.services .services-wrap .services-grid > div .serviceBlok-hover .consulting {
   position: absolute;
   top: 60%;
   right: 3%;
@@ -80,7 +99,8 @@ footer .bottom, footer .wrap, .services .wrap, .projects .wrap, .hero .wrap, hea
   padding: 1rem;
 }
 
-.kontaktForma .forma form select, .kontaktForma .forma form input {
+.kontaktForma .forma form select,
+.kontaktForma .forma form input {
   width: 60%;
   height: 3rem;
   padding: 1rem;
@@ -90,12 +110,16 @@ footer .bottom, footer .wrap, .services .wrap, .projects .wrap, .hero .wrap, hea
   color: white;
 }
 
-footer .bottom .logo a h2, footer .wrap .logo a h2, header .wrap .logo a h2 {
+footer .bottom .logo a h2,
+footer .wrap .logo a h2,
+header .wrap .logo a h2 {
   font-size: 1.2rem;
   font-weight: 500;
   color: black;
 }
-footer .bottom .logo a p, footer .wrap .logo a p, header .wrap .logo a p {
+footer .bottom .logo a p,
+footer .wrap .logo a p,
+header .wrap .logo a p {
   font-size: 1rem;
   font-weight: 400;
   color: #a1a09f;
@@ -403,7 +427,13 @@ header .wrap .lista .chat a {
 .services .services-wrap .services-grid > div .serviceBlok-hover .consulting p {
   color: #a1a09f;
 }
-.services .services-wrap .services-grid > div .serviceBlok-hover .consulting span {
+.services
+  .services-wrap
+  .services-grid
+  > div
+  .serviceBlok-hover
+  .consulting
+  span {
   color: #ec5c29;
 }
 .services .services-wrap .services-grid > div .serviceBlok-hover .development {
@@ -411,17 +441,41 @@ header .wrap .lista .chat a {
   font-size: 2rem;
   right: 7%;
 }
-.services .services-wrap .services-grid > div .serviceBlok-hover .development i[class="fa-brands fa-php"] {
-  color: #7B7FB5;
+.services
+  .services-wrap
+  .services-grid
+  > div
+  .serviceBlok-hover
+  .development
+  i[class="fa-brands fa-php"] {
+  color: #7b7fb5;
 }
-.services .services-wrap .services-grid > div .serviceBlok-hover .development i[class="fa-brands fa-css3-alt"] {
-  color: #AFC1D6;
+.services
+  .services-wrap
+  .services-grid
+  > div
+  .serviceBlok-hover
+  .development
+  i[class="fa-brands fa-css3-alt"] {
+  color: #afc1d6;
 }
-.services .services-wrap .services-grid > div .serviceBlok-hover .development i[class="fa-brands fa-html5"] {
+.services
+  .services-wrap
+  .services-grid
+  > div
+  .serviceBlok-hover
+  .development
+  i[class="fa-brands fa-html5"] {
   color: #f47950;
 }
-.services .services-wrap .services-grid > div .serviceBlok-hover .development i[class="fa-brands fa-square-js"] {
-  color: #F7BE6A;
+.services
+  .services-wrap
+  .services-grid
+  > div
+  .serviceBlok-hover
+  .development
+  i[class="fa-brands fa-square-js"] {
+  color: #f7be6a;
 }
 
 @media (max-width: 400px) {
@@ -442,11 +496,21 @@ header .wrap .lista .chat a {
   #services .services-wrap .services-grid .serviceBlok {
     padding-top: 5%;
   }
-  #services .services-wrap .services-grid .serviceBlok .serviceBlok-hover .consulting {
+  #services
+    .services-wrap
+    .services-grid
+    .serviceBlok
+    .serviceBlok-hover
+    .consulting {
     font-size: 0.875rem;
     padding: 3px;
   }
-  #services .services-wrap .services-grid .serviceBlok .serviceBlok-hover .development {
+  #services
+    .services-wrap
+    .services-grid
+    .serviceBlok
+    .serviceBlok-hover
+    .development {
     margin-bottom: 50px;
     top: 50%;
   }
@@ -465,7 +529,7 @@ header .wrap .lista .chat a {
   grid-template-columns: 1fr 1fr;
 }
 .kontaktForma .footer-tekst {
-  background-color: #DBDEDD;
+  background-color: #dbdedd;
   position: relative;
   overflow: hidden;
   display: flex;
@@ -613,4 +677,4 @@ footer .bottom .contact-message p {
   footer .wrap {
     width: 90%;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */

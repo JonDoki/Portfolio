@@ -4,12 +4,12 @@
   margin-bottom: 15vh;
   .wrap {
     @extend %wrap;
-    >div{
+    > div {
+      width: 100%;
+      img {
         width: 100%;
-        img{
-            width: 100%;
-            height: auto;
-        }
+        height: auto;
+      }
     }
     img {
       clip-path: polygon(0 0, 53% 0, 100% 13%, 100% 100%, 0 100%);
